@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: my-springboot-app
-        image: geethika12798/mydocker-repo:123
+        image: geethika12798/mydocker-repo:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8085
