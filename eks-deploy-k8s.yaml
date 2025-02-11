@@ -1,4 +1,4 @@
-apiVersion: apps/v1
+kaapiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: my-springboot-app
-        image: 692859911303.dkr.ecr.eu-north-1.amazonaws.com/devops/mydocker-repo
+        image: geethika12798/mydocker-repo
         imagePullPolicy: Always
         ports:
         - containerPort: 8085
